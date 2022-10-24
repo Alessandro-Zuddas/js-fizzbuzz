@@ -8,6 +8,58 @@
     padding: 0;
 }
 
+body{
+    background-color: #083B4C;
+}
+
 /*----------
    COMMON 
 ----------*/
+
+.container{
+    width: 62.5rem;
+    margin: auto;
+}
+
+/*----------
+   MAIN 
+----------*/
+
+.main-title{
+    text-align: center;
+    color: white;
+    font-size: 3.75rem;
+    margin-top: 1.5625rem;
+    margin-bottom: 1.5625rem;
+}
+
+.table-row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(90% / 7);
+    padding: 3.125rem 0;
+    font-size: 1.25rem;
+}
+
+.col-numbers{
+    background-color: #1389b2;
+}
+
+.col-fizz{
+    background-color: #0cd6a1;
+}
+
+.col-buzz{
+    background-color: #ffd166;
+}
+
+.col-fizz-buzz{
+    background-color: #f0466f;
+}
