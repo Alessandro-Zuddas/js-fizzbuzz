@@ -12,28 +12,27 @@ for(let i = 1; i <= 100; i++){
         // Se è divisibile sia per 3 che per 5 stampo FizzBuzz
         div.classList.add("col-fizz-buzz");
         div.innerHTML = "FizzBuzz";
-        table.append(div);
 
     }else if(i % 3 === 0){
 
         // Se è divisibile per 3 stampo Fizz
         div.classList.add("col-fizz");
         div.innerHTML = "Fizz";
-        table.append(div);
 
     }else if(i % 5 === 0){
 
         // Se è divisibile per 5 stampo Buzz
         div.classList.add("col-buzz");
         div.innerHTML = "Buzz";
-        table.append(div);
 
     }else{
 
         // Altrimenti stampo il numero contenuto in i
         div.classList.add("col-numbers");
         div.innerHTML = i;
-        table.append(div);
 
     }
+
+    // Inserisco l'elemento nella pagina
+    table.append(div);
 }
